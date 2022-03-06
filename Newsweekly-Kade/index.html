@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <title>Newsweek</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/media-queries.css">
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Navbar -->
+    <nav class="no-margin topnav navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header hidden-xs">
+          <a href="#" class="pull-left">
+            <img class="visible-sm visible-xs visible-lg" src="images/logo/logo_lg.svg" alt="">
+            <img class="visible-md" src="images/logo/logo-sm.svg" alt="">
+          </a>
+        </div>
+        <ul class="nav navbar-nav navbar-left nav-items visible-md visible-lg">
+          <li><a href="#">U.S.</a></li>
+          <li><a href="#">WORLD</a></li>
+          <li><a href="#">BUSINESS</a></li>
+          <li><a href="#">TECH & SCIENCE</a></li> 
+          <li><a href="#" class="glyphicon glyphicon-search"></a></li>
+        </ul>
+        <div id="navbar" class="navbar-collapse collapse">
+          <a href="#" class="pull-left">
+            <img class="hidden-xs visible-xs" src="/images/logo/logo-sm.svg" alt="">
+          </a>
+          <!-- Smaller Screen Nav Bar -->
+          <ul class="nav navbar-nav navbar-right hidden-lg hidden-md">
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="search-box" class="dropdown-toggle glyphicon glyphicon-search" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style-sm-hamburger">
+              <a href="#" id="hamburger" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div>
+            </li>
+          </ul>
+          <!-- lg Screen Nav Bar -->
+          <ul class="nav navbar-nav navbar-right visible-lg visible-md">
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a href="#" id="circular-image" class="dropdown-toggle" data-toggle="dropdown">
+                <div class="banner-subscribe-to">
+                  <div class="wrapper">
+                    <p><img class="img-circle" src="images/navbar/nav-bar-img.jpg">
+                      <span>Subscribe <br> To Newsweek</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="map-marker" class="dropdown-toggle glyphicon glyphicon-map-marker" data-toggle="dropdown"></a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li><a href="#">Sign In</a>
+              <div class="banner-sign-in">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div style="padding: 0;" class="col-xs-12 col-md-9">
+          <!-- articles -->
+          <div class="main-article">
+            <!-- first article -->
+            <div><img class="rubio" src="/images/main/main_main.jpg" alt="Picture of Marco Rubio"></div>
+            <div id="text-wrap">
+              <h2 class="main-A-text">U.S.</h2>
+              <h3 class="headline">JUSTICE DEPT. TO FORCE REFORMS</h3>
+              <p class="quote">"The residents of Ferguson have waited nearly a year for their city to adopt an agreement."</p>
+            </div>
+            <hr>
+          </div>
+  
+          <div style="border: 1px solid #f2f2f2; margin-bottom: 3px;" class="row">
+            <!-- small articles -->
+            <div class="col-xs-12 col-sm-6 verticle-divider">
+              <div id="card" class="second-article">
+                <!-- second article -->
+                <div style="width: 100%;"><img src="/images/main/main1.png" alt=""></div>
+                <div id="sm-text-wrap">
+                  <h2 id="small-article-text" class="main-A-text">
+                    U.S.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <div id="card" class="third-article">
+                <!-- third article -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <div class="side-bar">
+            <!-- side bar -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
